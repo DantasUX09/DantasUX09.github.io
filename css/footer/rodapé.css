@@ -1,0 +1,43 @@
+footer{
+  background: #1C612F;
+  padding: 60px;
+}
+.rodape{
+  display: flex;
+  gap: 160px;
+}
+.integrantes p{
+margin-top: 5px;
+}
+.integrantes-nomes{
+  margin-top: 10px;
+}
+
+.info p {
+  margin-top: 5px;
+}
+.info-tipo{
+  margin-top: 10px;
+}
+.info-tipo a {
+ text-decoration: none;
+  color: black;
+}
+
+.bio p{
+  margin-top: 5px;
+}
+.bio-info{
+  margin-top: 10px;
+}
+.bio-info a {
+  text-decoration: none;
+  color: black;
+}
+
+.contato p{
+  margin-top: 5px;
+}
+.contato-info{
+  margin-top: 10px;
+}

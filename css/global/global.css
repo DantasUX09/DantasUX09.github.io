@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+p, h1, h2,h3, button{
+  margin: 0px;
+}
+
+.homen{
+display: none;
+}
+
+.homen.ativo{
+display: block;
+}
+
+.mulher{
+  display: none;
+}
+
+.mulher.ativo{
+  display: block;
+}
+
