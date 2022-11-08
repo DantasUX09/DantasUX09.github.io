@@ -24,13 +24,17 @@ list-style: none;
   position: relative;
  
 }
-.header-menu a:hover::after{
+.header-menu a:after{
   content:"";
   display: block;
-  width: 100%;
+  width: 0;
   height: 4px;
   background: black;
   border-radius: 4px;
   position: absolute;
+  transition: 0.4s;
+}
 
+.header-menu a:hover::after{
+  width: 100%;
 }
