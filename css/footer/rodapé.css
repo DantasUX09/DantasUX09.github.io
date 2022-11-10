@@ -1,31 +1,42 @@
 footer{
   background: #1C612F;
-  padding: 60px;
+  padding: 40px;
 }
 .rodape{
   display: flex;
-  gap: 160px;
+
+  justify-content: space-between;
 }
 .integrantes p{
 margin-top: 5px;
 }
 .integrantes-nomes{
   margin-top: 10px;
+  font-size: 20px;
+  color: #000501;
 }
 
 .info p {
   margin-top: 5px;
+  font-size: 20px;
+  color: #000501;
 }
 .info-tipo{
   margin-top: 10px;
+  
 }
 .info-tipo a {
  text-decoration: none;
   color: black;
 }
+.info-tipo a:hover{
+  color: #FCE8D7;
+}
 
 .bio p{
   margin-top: 5px;
+  font-size: 20px;
+  color: #000501;
 }
 .bio-info{
   margin-top: 10px;
@@ -34,10 +45,15 @@ margin-top: 5px;
   text-decoration: none;
   color: black;
 }
+.bio-info a:hover{
+  color: #FCE8D7;
+}
 
 .contato p{
   margin-top: 5px;
 }
 .contato-info{
   margin-top: 10px;
+  font-size: 20px;
+  color: #000501;
 }

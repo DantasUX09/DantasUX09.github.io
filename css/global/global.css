@@ -15,9 +15,8 @@ display: none;
 display: block;
 }
 
-.mulher{
-  display: none;
-}
+.mulher {
+display: none;}
 
 .mulher.ativo{
   display: block;
