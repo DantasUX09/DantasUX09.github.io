@@ -186,7 +186,7 @@ body {
     margin-left: -7px;
   }
   .menu-principal {
-    padding-left: 90px;
+    margin: 0 auto;
   }
      .botao input {
    margin-left: -190px;
@@ -194,13 +194,20 @@ body {
 }
 
 .corpos-imc {
-  background: #308f4a;
-  height: 600px;
+  height: 450px;
   display: flex;
   padding-left: 60px;
   padding-right: 60px;
   gap: 30px;
-  padding-top: 4px;
+  
+
+}
+.overflow-homen{
+  overflow: auto;
+  background: #308f4a ;
+}
+.overflow-mulher{
+  overflow: auto;
 }
 
 .homen h1,
@@ -372,6 +379,10 @@ img {
   color: #0d0600;
   margin-top: 3px;
   margin-top: 3px;
+}
+
+@media(max-width:1110px){
+  
 }
 input {
   border: none;
