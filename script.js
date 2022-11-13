@@ -27,3 +27,8 @@ homen.classList.remove("ativo")
 }
 
 sexoF.addEventListener("click", ativarF)
+
+// Animção
+
+
+ 

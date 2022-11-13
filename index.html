@@ -11,14 +11,16 @@
 
 <body>
   <header class="header">
+
     <img src="img/logo-cepmg 2.png" alt="logo" width="70px">
+
     <ul class="header-menu">
       <li><a href="">Notícias</a> </li>
       <li><a href="">Contato</a> </li>
       <li><a href="">Login</a> </li>
     </ul>
   </header>
-  <main>
+  <main data-anime="500">
     <div class="menu-principal">
 
       <div class="titulo">
@@ -27,32 +29,34 @@
       </div>
 
 
-
-      <div class="sexo">
-
-        <div class="menu-sexo">
-          <div class="menu-item-homen">
-            <label for="">Sexo:</label> <button>.</button> Masculino
+      <div class="menu-principal-1">
 
 
-          </div>
+        <div class="sexo">
 
-          <div class="menu-item-mulher">
+          <div class="menu-sexo">
+            <div class="menu-item-homen">
+              <label for="">Sexo:</label> <button>.</button> Masculino
 
-            <button>.</button> Feminino
+
+            </div>
+
+            <div class="menu-item-mulher">
+
+              <button>.</button> Feminino
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="menu-medida">
-        <label for="">Defina:</label>
-        <input type="number" name="peso" id="peso" placeholder="Peso(kg)">
-        <input type="number" name="altura" id="altura" placeholder="Altura(M)">
+        <div class="menu-medida">
+          <label for="">Defina:</label>
+          <input type="number" name="peso" id="peso" placeholder="Peso(kg)">
+          <input type="number" name="altura" id="altura" placeholder="Altura(M)">
+        </div>
+        <div class="botao">
+          <input class="botao-somar" type="button" value="Calcular">
+        </div>
       </div>
-      <div class="botao">
-        <input class="botao-somar" type="button" value="Calcular">
-      </div>
-
     </div>
   </main>
 
@@ -215,7 +219,7 @@
       <div class="integrantes">
         <h3>INTEGRANTES</h3>
         <div class="integrantes-nomes">
-          <p>Guilherme Da Silva Dantas</p>
+          <p>Guilherme Dantas</p>
           <p>Jefter Lucas</p>
           <p>Gabriel Felipe</p>
           <p>Paulo Vitor </p>
@@ -231,25 +235,26 @@
         </div>
       </div>
 
-      <div class="bio">
-        <h3>GRUPO</h3>
-        <div class="bio-info">
-          <p><a href="./">Sobre-nós</a></p>
-          <p><a href="./">Contate-nos</a></p>
+        <div class="bio">
+          <h3>GRUPO</h3>
+          <div class="bio-info">
+            <p><a href="./">Sobre-nós</a></p>
+            <p><a href="./">Contate-nos</a></p>
+          </div>
         </div>
-      </div>
 
-      <div class="contato">
-        <h3>CONTATO RÁPIDO</h3>
-        <div class="contato-info">
-          <p>guilhermim@gmail.com</p>
-          <p>64 98459-1545</p>
+        <div class="contato">
+          <h3>CONTATO RÁPIDO</h3>
+          <div class="contato-info">
+            <p>guilhermim@gmail.com</p>
+            <p>64 98459-1545</p>
+          </div>
         </div>
       </div>
-    </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="./js/plugins/simple-anime.js"></script>;
+  <script src="script.js"></script>;
 </body>
 
 </html>
