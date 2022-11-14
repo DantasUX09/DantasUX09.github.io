@@ -49,6 +49,9 @@
   .header{
     padding-left: 30px;
   }
+  .header-menu a:after {
+  display: none;
+}
   
 }
 
@@ -73,12 +76,13 @@
  display: flex;
  flex-wrap: wrap;
  padding-left: 5px;
+ 
 }
 .header-menu{
-  flex-wrap: wrap;
+  
   padding-left: 5px;
 }
 .header img{
-  margin-left: 0px;
+  margin-left: 160px;
 }
 }
