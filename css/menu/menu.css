@@ -2,17 +2,18 @@
   display: flex;
   gap: 60px;
 }
-body {
+
+main{
   background: #d29d71;
 }
 .menu-principal {
   background: #d29d71;
-  height: 500px;
   position: relative;
   display: grid;
   justify-content: center;
   margin: 0 auto;
   padding-bottom: 60px;
+  max-width: 1200px;
 }
 
 
@@ -176,7 +177,7 @@ body {
     margin-left: 79px;
   }
   .menu-principal {
-    padding-left: 90px;
+    margin: 0 auto;
   }
      .botao input {
    margin-left: -140px;
@@ -196,6 +197,7 @@ body {
      .botao input {
    margin-left: -190px;
   }
+
 }
 
 .corpos-imc {
