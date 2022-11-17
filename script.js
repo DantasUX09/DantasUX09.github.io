@@ -31,4 +31,7 @@ sexoF.addEventListener("click", ativarF)
 // Animção
 
 
+  new SimpleAnime();
+
+
  

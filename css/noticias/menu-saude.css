@@ -1,0 +1,72 @@
+.img-saude img{
+  max-width: 100%;
+}
+.titulo-noticias{
+padding-left: 30px;
+padding-top: 60px;
+padding-bottom: 30px;
+background: #488A5F;
+}
+.titulo-noticias h3{
+  font-size: 32px;
+  color: #EAEAEA;
+}
+.titulo-noticias h1{
+  font-size: 96px;
+  color: #FFFAF6;
+}
+
+.menu-saude{
+  background: #000;
+  padding-left: 30px;
+  padding-right: 90px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: inset -180px 0px  #488A5F;
+}
+.menu-saude h1{
+  color: #FFFAF6;
+  font-size: 64px;
+  align-self: center;
+}
+
+
+.texto-noticias{
+  padding-left: 30px;
+  padding-right: 175px;
+  background: #488A5F;
+  color: #EAEAEA;
+  
+}
+.texto-noticias-p1, .texto-noticias-p2 p{
+font-size: 32px;
+padding-top: 20px;
+}
+
+.texto-noticias-p3 p{
+  font-size: 32px;
+padding-top: 10px;
+}
+.texto-noticias-p3 h2{
+  padding-top: 40px;
+  font-size: 32px;
+  color: #FFFAF6;
+}
+
+.propagandas-noticias{
+  padding-top: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: #488A5F;
+}
+.propagandas-item{
+  display: flex;
+  padding-right: 90px;
+}
+.propagandas-item p{
+  font-size: 24px;
+}

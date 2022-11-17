@@ -12,20 +12,20 @@
 <body>
   <header class="header">
 
-    <img src="img/logo-cepmg 2.png" alt="logo" width="70px">
+   <a href="./index.html"><img src="img/logo-cepmg 2.png" alt="logo" width="70px"></a> 
 
     <ul class="header-menu">
-      <li><a href="">Notícias</a> </li>
+      <li><a href="./noticias.html">Notícias</a> </li>
       <li><a href="">Contato</a> </li>
       <li><a href="">Login</a> </li>
     </ul>
   </header>
-  <main data-anime="500">
+  <main>
     <div class="menu-principal">
 
       <div class="titulo">
-        <h1>Indice De Massa Corporal</h1>
-        <img src="./img/imc.png" alt="" width="160px">
+        <h1 class="fadeInDown" data-anime="300">Índice De Massa Corporal</h1>
+        <img class="fadeInDown" data-anime="300" src="./img/imc.png" alt="" width="160px">
       </div>
 
 
@@ -34,9 +34,9 @@
 
         <div class="sexo">
 
-          <div class="menu-sexo">
-            <div class="menu-item-homen">
-              <label for="">Sexo:</label> <button>.</button> Masculino
+          <div class="menu-sexo fadeInDown" data-anime="400">
+            <div class="menu-item-homen" >
+              <label  for="">Sexo:</label> <button >.</button> Masculino
 
 
             </div>
@@ -49,12 +49,12 @@
         </div>
 
         <div class="menu-medida">
-          <label for="">Defina:</label>
-          <input type="number" name="peso" id="peso" placeholder="Peso(kg)">
-          <input type="number" name="altura" id="altura" placeholder="Altura(M)">
+          <label class="fadeInDown" data-anime="500" for="">Defina:</label>
+          <input class="fadeInDown" data-anime="500" type="number" name="peso" id="peso" placeholder="Peso(kg)">
+          <input class="fadeInDown" data-anime="500" type="number" name="altura" id="altura" placeholder="Altura(M)">
         </div>
         <div class="botao">
-          <input class="botao-somar" type="button" value="Calcular">
+          <input data-anime="600" class="botao-somar fadeInUp " type="button" value="Calcular">
         </div>
       </div>
     </div>
@@ -66,8 +66,8 @@
     <div class="overflow-homen">
 
 
-      <div class="corpos-imc">
-        <div class="corpos-item1">
+      <div class="corpos-imc" >
+        <div class="corpos-item1 fadeInRight" data-anime="500">
           <img src="img/magro.png" alt="" width="170px">
           <span>18.5 ou menos</span>
           <div class="corpo-texto">
@@ -79,7 +79,7 @@
 
         </div>
 
-        <div class="corpos-item2">
+        <div class="corpos-item2 fadeInRight" data-anime="400">
           <img src="img/normal-h.png" alt="" width="170px">
           <span>18.5 ou menos</span>
           <div class="corpo-texto">
@@ -91,7 +91,7 @@
 
         </div>
 
-        <div class="corpos-item3">
+        <div class="corpos-item3 fadeInRight" data-anime="300">
           <div class="corpo3-img">
 
             <img src="img/gordo.png" alt="" width="170px">
@@ -105,7 +105,7 @@
           </div>
         </div>
 
-        <div class="corpos-item4">
+        <div class="corpos-item4 fadeInLeft" data-anime="300">
           <img src="img/obesidade2.png" alt="" width="170px">
           <span>18.5 ou menos</span>
           <h2>Obesidade grau I</h2>
@@ -113,7 +113,7 @@
             podem estar enfrentando problemas, como a desnutrição. É preciso saber qual é o caso</p>
         </div>
 
-        <div class="corpos-item5">
+        <div class="corpos-item5 fadeInLeft" data-anime="400">
           <img src="img/obesidade1 (1).png" alt="" width="170px">
           <span>18.5 ou menos</span>
           <h2>Obesidade grau II</h2>
@@ -121,7 +121,7 @@
             podem estar enfrentando problemas, como a desnutrição. É preciso saber qual é o caso</p>
         </div>
 
-        <div class="corpos-item4">
+        <div class="corpos-item4 fadeInLeft" data-anime="500">
           <img src="img/obesidade2.png" alt="" width="170px">
           <span>18.5 ou menos</span>
           <h2>Obesidade grau I</h2>
@@ -253,8 +253,8 @@
       </div>
   </footer>
 
-  <script src="./js/plugins/simple-anime.js"></script>;
-  <script src="script.js"></script>;
+  <script src="./css/plugins/simple-anime.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>

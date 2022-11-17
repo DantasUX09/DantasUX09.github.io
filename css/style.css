@@ -8,4 +8,6 @@
 
 @import"./footer/rodapé.css";
 
-@import"./global/plugins.css";
+@import"./plugins/animacao.css";
+
+@import "./noticias/menu-saude.css";
