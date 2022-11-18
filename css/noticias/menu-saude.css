@@ -57,16 +57,25 @@ padding-top: 10px;
 
 .propagandas-noticias{
   padding-top: 120px;
+  padding-bottom: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr ;
   padding-left: 30px;
   padding-right: 30px;
   background: #488A5F;
+  gap: 20px;
+}
+.propagandas-noticias h1{
+  grid-column: 1/-1;
+  color: #fff;
 }
 .propagandas-item{
   display: flex;
   padding-right: 90px;
+  gap: 10px;
 }
 .propagandas-item p{
   font-size: 24px;
+  color: #FFFAF6;
+
 }
