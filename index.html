@@ -50,12 +50,14 @@
 
         <div class="menu-medida">
           <label class="fadeInDown" data-anime="500" for="">Defina:</label>
-          <input class="fadeInDown" data-anime="500" type="number" name="peso" id="peso" placeholder="Peso(kg)">
-          <input class="fadeInDown" data-anime="500" type="number" name="altura" id="altura" placeholder="Altura(M)">
+          <input class=" peso fadeInDown" data-anime="500" type="number" name="peso" id="peso" placeholder="Peso(kg)">
+          <input class=" altura fadeInDown" data-anime="500" type="number" name="altura" id="altura" placeholder="Altura(M)">
         </div>
         <div class="botao">
-          <input data-anime="600" class="botao-somar fadeInUp " type="button" value="Calcular">
+          <input onclick="somar()" data-anime="600" class="botao-somar fadeInUp " type="button" value="Calcular">
         </div>
+        <span class="span-medida"></span>
+
       </div>
     </div>
   </main>
@@ -67,9 +69,9 @@
 
 
       <div class="corpos-imc" >
-        <div class="corpos-item1 fadeInRight" data-anime="500">
+        <div class="corpos-item1 fadeInRight " data-anime="500">
           <img src="img/magro.png" alt="" width="170px">
-          <span>18.5 ou menos</span>
+          <span>18.5 ou menos </span>
           <div class="corpo-texto">
             <h2>Abaixo do normal</h2>
             <p>Procure um médico. Algumas pessoas têm um baixo peso por caracteristica do seu organismo e tudo bem.

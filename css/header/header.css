@@ -25,6 +25,9 @@
   font-size: 18px;
   position: relative;
 }
+.header-menu a.adolphe:hover{
+  opacity: 100;
+}
 .header-menu a:after {
   content: "";
   display: block;

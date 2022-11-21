@@ -7,6 +7,10 @@ p, h1, h2,h3, button{
   margin: 0px;
 }
 
+a{
+  text-decoration: none;
+}
+
 .homen{
 display: none;
 }
@@ -25,6 +29,35 @@ display: none;}
 body{
   background: #1C612F;
 }
+
+.Adolphe{
+  display: none;
+}
+.Adolphe.ativoover{
+  display: block;
+   position: absolute;
+  padding-left: 560px;
+  padding-top: 910px;
+}
+
+.Adolphe.ativoout{
+  display: block;
+   position: absolute;
+  padding-left: 560px;
+  padding-top: 0px;
+  opacity: 0;
+}
+
+
+/* menus ativos dos corpos*/
+
+.corpos-item1.ativo{
+ border: 2px solid black;
+}
+
+
+
+
 
 
 
