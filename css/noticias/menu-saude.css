@@ -86,3 +86,90 @@ padding-top: 10px;
 body{
   position: relative;
 }
+
+@media(max-width:1085px){
+ .Adolphe.ativoover{
+  padding-left: 400px;
+ 
+ }
+ .texto-noticias{
+  padding-right: 10px;
+ }
+}
+
+
+@media(max-width:930px){
+ .Adolphe.ativoover{
+  padding-left: 300px;
+  margin-top: 260px;
+ 
+ }
+
+}
+@media(max-width:830px){
+ .Adolphe.ativoover{
+  padding-left: 200px;
+  margin-top: 190px;
+ 
+ }
+ .texto-noticias{
+  padding-right: 5px;
+ }
+}
+@media(max-width:700px){
+ .Adolphe.ativoover{
+  padding-left: 30px;
+  margin-top: 200px;
+ 
+ }
+ .texto-noticias{
+  padding-right: 5px;
+ }
+}
+@media(max-width:560px){
+ .Adolphe.ativoover{
+  display: none;
+ 
+ }
+ 
+}
+@media(max-width:950px){
+  .menu-saude{
+    display: grid;
+    grid-template-columns: 1fr;
+     box-shadow: inset 0 -120px  #488A5F;
+  }
+}
+@media(max-width:800px){
+  .propagandas-noticias{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media(max-width:730px){
+  .texto-noticias{
+    padding-right: 10px;
+  }
+   .propagandas-noticias{
+    padding-top: 20px;
+  }
+}
+
+@media(max-width:500px){
+  .menu-saude h1{
+   font-size: 40px;
+   padding-bottom: 20px;
+  }
+  .texto-noticias{
+    padding-top: 0px;
+  }
+  .texto-noticias p{
+    font-size: 26px;
+   
+  }
+  .propagandas-noticias{
+    padding-top: 20px;
+  }
+  }
+
+
