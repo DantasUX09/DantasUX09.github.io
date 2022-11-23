@@ -95,6 +95,9 @@ body{
  .texto-noticias{
   padding-right: 10px;
  }
+   .propagandas-item {
+    padding-right: 0px;
+  }
 }
 
 
@@ -104,6 +107,9 @@ body{
   margin-top: 260px;
  
  }
+   .propagandas-item {
+    padding-right: 0px;
+  }
 
 }
 @media(max-width:830px){
@@ -131,8 +137,9 @@ body{
   display: none;
  
  }
- 
 }
+
+
 @media(max-width:950px){
   .menu-saude{
     display: grid;
@@ -144,6 +151,9 @@ body{
   .propagandas-noticias{
     grid-template-columns: 1fr;
   }
+    .propagandas-item {
+    padding-right: 0px;
+  }
 }
 
 @media(max-width:730px){
@@ -153,15 +163,48 @@ body{
    .propagandas-noticias{
     padding-top: 20px;
   }
+    .propagandas-item {
+    padding-right: 0px;
+  }
 }
-
-@media(max-width:500px){
+@media(max-width:510px){
+  .titulo-noticias h1{
+    font-size: 40px;
+  }
+  .titulo-noticias h3{
+    font-size: 20px;
+  }
   .menu-saude h1{
    font-size: 40px;
    padding-bottom: 20px;
   }
   .texto-noticias{
     padding-top: 0px;
+  }
+  .texto-noticias p{
+    font-size: 26px;
+  
+  }
+  .propagandas-noticias{
+    padding-top: 20px;
+  }
+  .propagandas-item p{
+    font-size: 20px;
+  }
+  .propagandas-item {
+    padding-right: 0px;
+  }
+  }
+
+@media(max-width:430px){
+  .menu-saude h1{
+   font-size: 30px;
+   padding-bottom: 20px;
+  }
+  .texto-noticias{
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 4px;
   }
   .texto-noticias p{
     font-size: 26px;
