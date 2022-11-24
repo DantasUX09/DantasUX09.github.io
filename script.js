@@ -7,7 +7,7 @@ function ativar(event) {
 
   const mulher = document.querySelector("#mulher");
   const homen = document.querySelector("#homen1");
-  homen.classList.toggle("ativo");
+  homen.classList.add("ativo");
   mulher.classList.remove("ativo");
   console.log(homen);
 }
@@ -21,7 +21,7 @@ function ativarF(event) {
 
   const homen = document.querySelector("#homen1");
   const mulher = document.querySelector("#mulher");
-  mulher.classList.toggle("ativo");
+  mulher.classList.add("ativo");
   homen.classList.remove("ativo");
 }
 
@@ -41,7 +41,8 @@ function somar() {
   const resposta1 = parseInt(peso.value);
   const resposta2 = parseInt(altura.value) ** 2;
   const resposta3 = parseInt(resposta1) / parseInt(resposta2);
-  const resposta = (resultado.innerHTML = resposta3);
+  const resposta4= resposta3.toFixed(2)
+  const resposta = (resultado.innerHTML = resposta4);
 
   const corpos1 = document.querySelector(".corpos-item1");
   if (resposta3 < 0.0018) {
@@ -49,27 +50,28 @@ function somar() {
   }
 
   const corpos2 = document.querySelector(".corpos-item2");
-  if (resposta3 > 0.0018 && resposta3 < 0.0025) {
+  if (resposta3 > 0.0018 && resposta3 <= 0.0025) {
     corpos2.classList.toggle("ativo");
   }
 
   const corpos3 = document.querySelector(".corpos-item3");
-  if ((resposta3 > 0.0025) && (resposta3 < 0.003)) {
+  if ((resposta3 > 0.0025) && (resposta3 <= 0.0030)) {
     corpos3.classList.toggle("ativo");
   }
 
   const corpos4 = document.querySelector(".corpos-item4");
-  if ((resposta3 > 0.0031) && (resposta3 < 0.0035)) {
+  if ((resposta3 > 0.0031) && (resposta3 <= 0.0035)) {
     corpos4.classList.toggle("ativo");
   }
 
   const corpos5 = document.querySelector(".corpos-item5");
-  if ((resposta3 > 0.0035) && (resposta3 < 0.004)) {
+  if ((resposta3 > 0.0035) && (resposta3 <= 0.0040)) {
     corpos5.classList.toggle("ativo");
   }
 
-  const corpos6 = document.querySelector(".corpos-item6");
-  if (resposta3 > 0.004) {
-    corpos6.classList.toggle("ativo");
-  }
+
+    const corpos6 = document.querySelector(".corpos-item6");
+    if (resposta3 > 0.0041) {
+      corpos6.classList.toggle("ativo");
+    } 
 }

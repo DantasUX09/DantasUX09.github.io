@@ -16,7 +16,7 @@
 
     <ul class="header-menu">
       <li><a href="./noticias.html">Notícias</a> </li>
-      <li><a href="">Contato</a> </li>
+      <li><a href="./grupo.html">Grupo</a> </li>
       <li><a href="">Login</a> </li>
     </ul>
   </header>
@@ -52,15 +52,17 @@
           <label class="fadeInDown" data-anime="500" for="">Defina:</label>
           <input class=" peso fadeInDown" data-anime="500" type="number" name="peso" id="peso" placeholder="Peso(kg)">
           <input class=" altura fadeInDown" data-anime="500" type="number" name="altura" id="altura"
-            placeholder="Altura(M)">
+            placeholder="Altura(cm)">
         </div>
         <div class="botao">
           <input onclick="somar()+ somar1()" data-anime="600" class="botao-somar fadeInUp " type="button"
             value="Calcular">
+          <span class="opacity-0"></span>
         </div>
-        <span class="span-medida"></span>
+      
 
       </div>
+      
     </div>
   </main>
 
@@ -96,10 +98,10 @@
         </div>
 
         <div class="corpos-item3 fadeInRight" data-anime="300">
-          <div class="corpo3-img">
+          
 
             <img src="img/gordo.png" alt="" width="170px">
-          </div>
+          
           <span>Entre 25,0 e 29,9</span>
           <div class="corpos3-texto">
             <h2>Sobrepeso</h2>
@@ -114,7 +116,7 @@
         <div class="corpos-item4 fadeInLeft" data-anime="300">
           <img src="img/obesidade2.png" alt="" width="170px">
           <span>Entre 30,0 e 34,9</span>
-          <h2>Obesidade grau I</h2>
+          <h2>Obesidade grau 1</h2>
           <p>Sinal de alerta! Chegou na hora de se cuidar, mesmo que seus exames sejam normais. Vamos dar início a
             mudanças hoje!
             Cuide de sua alimentação. Você precisa iniciar um acompanhamento com nutricionista e/ou endocrinologista.
@@ -124,16 +126,16 @@
         <div class="corpos-item5 fadeInLeft" data-anime="400">
           <img src="img/obesidade1 (1).png" alt="" width="170px">
           <span>Entre 35,0 e 39,9</span>
-          <h2>Obesidade grau II </h2>
+          <h2>Obesidade grau 2 </h2>
           <p>Mesmo que seus exames aparentem estar normais, é hora de se cuidar, iniciando mudanças no estilo de vida
             com o
             acompanhamento próximo de profissionais de saúde. <span>próximo de </span></p>
         </div>
 
         <div class="corpos-item6 fadeInLeft " data-anime="500">
-          <img src="img/obesidade2.png" alt="" width="170px">
-          <span>18.5 ou menos</span>
-          <h2>Obesidade grau II</h2>
+          <img src="img/gordo (1).png" alt="" width="170px">
+          <span>Maior que 40,0</span>
+          <h2>Obesidade grau 3</h2>
           <p>Aqui o sinal é vermelho, com forte probabilidade de já existirem doenças muito graves associadas. O
             tratamento deve ser ainda mais urgente.
             <span class="opacity-0">tratamento deve ser ainda mais urgente</span>
@@ -154,7 +156,7 @@
         <div class="corpos-item1m">
           <img src="img/mulher-muito-magra.png" alt="" width="160px">
           <span>18.5 ou menos</span>
-          <h2 class="ola">Abaixo d normal</h2>
+          <h2 class="ola">Abaixo do normal</h2>
           <p>Procure um médico. Algumas pessoas têm um baixo peso por caracteristica do seu organismo e tudo bem. Outras
             podem estar enfrentando problemas, como a desnutrição. É preciso saber qual é o caso <span
               class="opacity-0">tratamento deve ser ainda mais urgente</span> <span class="opacity-0"></span> </p>
@@ -174,7 +176,7 @@
         </div>
 
         <div class="corpos-item3m">
-          <img src="img/gorda-m.png" alt="" width="180px">
+          <img src="img/sobre-peso.png" alt="" width="180px">
           <span>Entre 25,0 e 29,9s</span>
           <div class="corpos3-texto">
             <h2>Sobrepeso</h2>
@@ -190,7 +192,7 @@
         <div class="corpos-item4m">
           <img src="img/gorda-m.png" alt="" width="180px">
           <span>Entre 30,0 e 34,9</span>
-          <h2>Obesidade grau I</h2>
+          <h2>Obesidade grau 1</h2>
           <p>Sinal de alerta! Chegou na hora de se cuidar, mesmo que seus exames sejam normais. Vamos dar início a
             mudanças hoje!
             Cuide de sua alimentação. Você precisa iniciar um acompanhamento com nutricionista e/ou endocrinologista.
@@ -198,9 +200,9 @@
         </div>
 
         <div class="corpos-item5m">
-          <img src="img/gorda-m.png" alt="" width="180px">
+          <img src="img/obesidade-2.png" alt="" width="180px">
           <span>Entre 35,0 e 39,9</span>
-          <h2>Obesidade grau II</h2>
+          <h2>Obesidade grau 2</h2>
           <p>Mesmo que seus exames aparentem estar normais, é hora de se cuidar, iniciando mudanças no estilo de vida
             com o
             acompanhamento próximo de profissionais de saúde.<span class="opacity-0">tratamento deve ser ainda mais
@@ -208,9 +210,9 @@
         </div>
 
         <div class="corpos-item6m">
-          <img src="img/gorda-m.png" alt="" width="180px">
+          <img src="img/obesidade-2.png" alt="" width="180px">
           <span>Acima de 40,0</span>
-          <h2>Obesidade grau III</h2>
+          <h2>Obesidade grau 3</h2>
           <p>Aqui o sinal é vermelho, com forte probabilidade de já existirem doenças muito graves associadas. O
             tratamento deve ser ainda mais urgente.
             <span class="opacity-0">tratamento deve ser ainda mais urgente <span class="opacity-0">tratamento deve ser
@@ -237,43 +239,43 @@
           Os Benefícios da boa forma <br> física
         </h1>
         <p>Os efeitos da prática regular de ativivade física não se resume apenas ao visual...</p>
-        <button>SAIBA MAIS</button>
+       <a href="./noticias.html"><button class="botao-saiba-mais">SAIBA MAIS</button></a> 
       </div>
 
     </div>
 
   </section>
 
-  <footer>
-    <div class="rodape">
-      <div class="integrantes">
-        <h3>INTEGRANTES</h3>
-        <div class="integrantes-nomes">
-          <p>Guilherme Dantas</p>
-          <p>Jefter Lucas</p>
-          <p>Gabriel Felipe</p>
-          <p>Paulo Vitor </p>
-          <p>Carlos Eduardo</p>
-        </div>
+<footer class="rodape-index">
+  <div class="rodape">
+    <div class="integrantes">
+      <h3>INTEGRANTES</h3>
+      <div class="integrantes-nomes">
+        <p>Guilherme Dantas</p>
+        <p>Jefter Lucas</p>
+        <p>Gabriel Felipe</p>
+        <p>Paulo Vitor </p>
+        <p>Carlos Eduardo</p>
       </div>
+    </div>
 
-      <div class="info">
-        <h3>INFORMAÇÕES</h3>
-        <div class="info-tipo">
-          <p><a href="./">Politica de privacidade</a></p>
-          <p><a href="./">Termos e condições</a></p>
-        </div>
+    <div class="info">
+      <h3>INFORMAÇÕES</h3>
+      <div class="info-tipo">
+        <p><a href="./">Politica de privacidade</a></p>
+        <p><a href="./">Termos e condições</a></p>
       </div>
+    </div>
 
-      <div>
-          <h3>GRUPO</h3>
-       <div class="bio-info">
+    <div>
+      <h3>GRUPO</h3>
+      <div class="bio-info">
         <p><a href="./grupo.html">Sobre-nós</a></p>
         <p><a href="./">Contate-nos</a></p>
       </div>
-      </div>
-    
-   
+    </div>
+
+
 
     <div class="contato">
       <h3>CONTATO RÁPIDO</h3>
@@ -282,8 +284,8 @@
         <p>64 98459-1545</p>
       </div>
     </div>
-    </div>
-  </footer>
+  </div>
+</footer>
 
   <script src="./css/plugins/simple-anime.js"></script>
   <script src="script.js"></script>

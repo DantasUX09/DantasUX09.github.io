@@ -17,8 +17,6 @@ main{
 }
 
 
-
-
 .titulo h1 {
   font-size: 50px;
   margin-left: -95px;
@@ -72,8 +70,20 @@ main{
   padding-left: 160px;
   padding-top: 30px;
 }
-
+.botao span{
+  padding: 5px;
+  background: #169b3b;
+   font-size: 16px;
+   
+}
 .botao-somar {
+  background: #169b3b;
+  padding: 15px 60px;
+  border-radius: 4px;
+  border: solid 2px #169b3b;
+  cursor: pointer;
+}
+.botao-saiba-mais{
   background: #169b3b;
   padding: 15px 60px;
   border-radius: 4px;

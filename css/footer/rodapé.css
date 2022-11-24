@@ -3,8 +3,14 @@ footer{
   padding: 40px;
   padding-top: 120px;
   overflow: auto;
-  
 }
+.rodape-index{
+    background: #1c612f;
+  padding: 40px;
+  padding-top: 120px;
+  overflow: auto;
+}
+
 .rodape{
   display: flex;
   justify-content: space-between;

@@ -78,6 +78,7 @@
   background: #1cb146;
 }
 
+
 @media (max-width: 1115px) {
   .noticia-menu {
     padding-left: 30px;
@@ -135,7 +136,7 @@
   padding-top: 0px;
 }
 .biografia-adolphe{
-  background: white;
+  background: rgb(225, 210, 189);
  padding-top: 10px;
  padding-left: 15px;
  padding-bottom: 15px;
