@@ -39,49 +39,37 @@ var resultado = document.querySelector("span");
 
 function somar() {
   const resposta1 = parseInt(peso.value);
-  const resposta2 = parseInt(altura.value) **2;
+  const resposta2 = parseInt(altura.value) ** 2;
   const resposta3 = parseInt(resposta1) / parseInt(resposta2);
   const resposta = (resultado.innerHTML = resposta3);
 
   const corpos1 = document.querySelector(".corpos-item1");
-  if (resposta3 <0.0018) {
+  if (resposta3 < 0.0018) {
     corpos1.classList.toggle("ativo");
-  } else {
-    corpos1.classList.remove("ativo");
   }
 
-   const corpos2 = document.querySelector(".corpos-item2");
-  if (resposta3 > 0.0015 & resposta3<0.0025) {
+  const corpos2 = document.querySelector(".corpos-item2");
+  if (resposta3 > 0.0018 && resposta3 < 0.0025) {
     corpos2.classList.toggle("ativo");
-  } else {
-    corpos2.classList.remove("ativo");
   }
 
   const corpos3 = document.querySelector(".corpos-item3");
-  if ((resposta3 > 0.0025) & (resposta3 < 0.0030)) {
+  if ((resposta3 > 0.0025) && (resposta3 < 0.003)) {
     corpos3.classList.toggle("ativo");
-  } else {
-    corpos3.classList.remove("ativo");
   }
 
-    const corpos4 = document.querySelector(".corpos-item4");
-    if ((resposta3 > 0.0031) & (resposta3 < 0.0035)) {
-      corpos4.classList.toggle("ativo");
-    } else {
-      corpos4.classList.remove("ativo");
-    }
+  const corpos4 = document.querySelector(".corpos-item4");
+  if ((resposta3 > 0.0031) && (resposta3 < 0.0035)) {
+    corpos4.classList.toggle("ativo");
+  }
 
-      const corpos5 = document.querySelector(".corpos-item5");
-      if ((resposta3 > 0.0035) & (resposta3 < 0.0040)) {
-        corpos5.classList.toggle("ativo");
-      } else {
-        corpos5.classList.remove("ativo");
-      }
+  const corpos5 = document.querySelector(".corpos-item5");
+  if ((resposta3 > 0.0035) && (resposta3 < 0.004)) {
+    corpos5.classList.toggle("ativo");
+  }
 
-       const corpos6 = document.querySelector(".corpos-item6");
-       if ((resposta3 > 0.0040)) {
-         corpos6.classList.toggle("ativo");
-       } else {
-         corpos6.classList.remove("ativo");
-       }
+  const corpos6 = document.querySelector(".corpos-item6");
+  if (resposta3 > 0.004) {
+    corpos6.classList.toggle("ativo");
+  }
 }

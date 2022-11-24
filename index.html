@@ -12,7 +12,7 @@
 <body>
   <header class="header">
 
-   <a href="./index.html"><img src="img/logo-cepmg 2.png" alt="logo" width="70px"></a> 
+    <a href="./index.html"><img src="img/logo-cepmg 2.png" alt="logo" width="70px"></a>
 
     <ul class="header-menu">
       <li><a href="./noticias.html">Notícias</a> </li>
@@ -35,8 +35,8 @@
         <div class="sexo">
 
           <div class="menu-sexo fadeInDown" data-anime="400">
-            <div class="menu-item-homen" >
-              <label  for="">Sexo:</label> <button >.</button> Masculino
+            <div class="menu-item-homen">
+              <label for="">Sexo:</label> <button>.</button> Masculino
 
 
             </div>
@@ -51,12 +51,14 @@
         <div class="menu-medida">
           <label class="fadeInDown" data-anime="500" for="">Defina:</label>
           <input class=" peso fadeInDown" data-anime="500" type="number" name="peso" id="peso" placeholder="Peso(kg)">
-          <input class=" altura fadeInDown" data-anime="500" type="number" name="altura" id="altura" placeholder="Altura(M)">
+          <input class=" altura fadeInDown" data-anime="500" type="number" name="altura" id="altura"
+            placeholder="Altura(M)">
         </div>
         <div class="botao">
-          <input onclick="somar()" data-anime="600" class="botao-somar fadeInUp " type="button" value="Calcular">
+          <input onclick="somar()+ somar1()" data-anime="600" class="botao-somar fadeInUp " type="button"
+            value="Calcular">
         </div>
-        <span class="span-medida opacity-0"></span>
+        <span class="span-medida"></span>
 
       </div>
     </div>
@@ -68,7 +70,7 @@
     <div class="overflow-homen">
 
 
-      <div class="corpos-imc" >
+      <div class="corpos-imc">
         <div class="corpos-item1 fadeInRight " data-anime="500">
           <img src="img/magro.png" alt="" width="170px">
           <span>18.5 ou menos </span>
@@ -86,8 +88,9 @@
           <span>Entre 18,6 e 24,9</span>
           <div class="corpo-texto">
             <h2>Normal</h2>
-            <p>Que bom que você está com o peso normal! E o melhor jeito de continuar assim é mantendo um estilo de vida ativo e uma
-            alimentação equilibrada <span>alimentação. equilibrada.alimentação equilibrada.</span></p>
+            <p>Que bom que você está com o peso normal! E o melhor jeito de continuar assim é mantendo um estilo de vida
+              ativo e uma
+              alimentação equilibrada <span>alimentação. equilibrada.alimentação equilibrada.</span></p>
           </div>
 
         </div>
@@ -100,9 +103,11 @@
           <span>Entre 25,0 e 29,9</span>
           <div class="corpos3-texto">
             <h2>Sobrepeso</h2>
-            <p>Ele é, na verdade, uma pré-obesidade e muitas pessoas nessa faixa já apresentam doenças associadas, como diabetes e
-            hipertensão. Importante rever hábitos e buscar ajuda antes de, por uma série de fatores, entrar na faixa da obesidade
-            pra valer.</p>
+            <p>Ele é, na verdade, uma pré-obesidade e muitas pessoas nessa faixa já apresentam doenças associadas, como
+              diabetes e
+              hipertensão. Importante rever hábitos e buscar ajuda antes de, por uma série de fatores, entrar na faixa
+              da obesidade
+              pra valer.</p>
           </div>
         </div>
 
@@ -110,23 +115,27 @@
           <img src="img/obesidade2.png" alt="" width="170px">
           <span>Entre 30,0 e 34,9</span>
           <h2>Obesidade grau I</h2>
-          <p>Sinal de alerta! Chegou na hora de se cuidar, mesmo que seus exames sejam normais. Vamos dar início a mudanças hoje!
-          Cuide de sua alimentação. Você precisa iniciar um acompanhamento com nutricionista e/ou endocrinologista.</p>
+          <p>Sinal de alerta! Chegou na hora de se cuidar, mesmo que seus exames sejam normais. Vamos dar início a
+            mudanças hoje!
+            Cuide de sua alimentação. Você precisa iniciar um acompanhamento com nutricionista e/ou endocrinologista.
+          </p>
         </div>
 
         <div class="corpos-item5 fadeInLeft" data-anime="400">
           <img src="img/obesidade1 (1).png" alt="" width="170px">
           <span>Entre 35,0 e 39,9</span>
           <h2>Obesidade grau II </h2>
-          <p>Mesmo que seus exames aparentem estar normais, é hora de se cuidar, iniciando mudanças no estilo de vida com o
-          acompanhamento próximo de profissionais de saúde. <span>próximo de </span></p>
+          <p>Mesmo que seus exames aparentem estar normais, é hora de se cuidar, iniciando mudanças no estilo de vida
+            com o
+            acompanhamento próximo de profissionais de saúde. <span>próximo de </span></p>
         </div>
 
-        <div class="corpos-item6 fadeInLeft" data-anime="500">
+        <div class="corpos-item6 fadeInLeft " data-anime="500">
           <img src="img/obesidade2.png" alt="" width="170px">
           <span>18.5 ou menos</span>
-          <h2>Obesidade grau III</h2>
-          <p>Aqui o sinal é vermelho, com forte probabilidade de já existirem doenças muito graves associadas. O tratamento deve ser ainda mais urgente.
+          <h2>Obesidade grau II</h2>
+          <p>Aqui o sinal é vermelho, com forte probabilidade de já existirem doenças muito graves associadas. O
+            tratamento deve ser ainda mais urgente.
             <span class="opacity-0">tratamento deve ser ainda mais urgente</span>
           </p>
         </div>
@@ -142,52 +151,71 @@
 
 
       <div class="corpos-imc">
-        <div class="corpos-item1">
+        <div class="corpos-item1m">
           <img src="img/mulher-muito-magra.png" alt="" width="160px">
           <span>18.5 ou menos</span>
-          <h2>Abaixo do normal</h2>
+          <h2 class="ola">Abaixo d normal</h2>
           <p>Procure um médico. Algumas pessoas têm um baixo peso por caracteristica do seu organismo e tudo bem. Outras
-            podem estar enfrentando problemas, como a desnutrição. É preciso saber qual é o caso</p>
+            podem estar enfrentando problemas, como a desnutrição. É preciso saber qual é o caso <span
+              class="opacity-0">tratamento deve ser ainda mais urgente</span> <span class="opacity-0"></span> </p>
         </div>
 
-        <div class="corpos-item2">
+        <div class="corpos-item2m">
           <img src="img/normal.png" alt="" width="180px">
-          <span>18.5 ou menos</span>
-          <h2>Normal</h2>
-          <p>Procure um médico. Algumas pessoas têm um baixo peso por caracteristica do seu organismo e tudo bem. Outras
-            podem estar enfrentando problemas, como a desnutrição. É preciso saber qual é o caso</p>
+          <span>Entre 18,6 e 24,9</span>
+          <div class="corpo-texto">
+            <h2>Normal</h2>
+            <p>Que bom que você está com o peso normal! E o melhor jeito de continuar assim é mantendo um estilo de vida
+              ativo e
+              uma
+              alimentação equilibrada <span>alimentação. equilibrada.alimentação equilibrada.limentação.
+                equilibrada.alimentação equilibrada.</span></p>
+          </div>
         </div>
 
-        <div class="corpos-item3">
+        <div class="corpos-item3m">
           <img src="img/gorda-m.png" alt="" width="180px">
-          <span>18.5 ou menos</span>
-          <h2>Sobrepeso</h2>
-          <p>Procure um médico. Algumas pessoas têm um baixo peso por caracteristica do seu organismo e tudo bem. Outras
-            podem estar enfrentando problemas, como a desnutrição. É preciso saber qual é o caso</p>
+          <span>Entre 25,0 e 29,9s</span>
+          <div class="corpos3-texto">
+            <h2>Sobrepeso</h2>
+            <p>Ele é, na verdade, uma pré-obesidade e muitas pessoas nessa faixa já apresentam doenças associadas, como
+              diabetes e
+              hipertensão. Importante rever hábitos e buscar ajuda antes de, por uma série de fatores, entrar na faixa
+              da
+              obesidade
+              pra valer.</p>
+          </div>
         </div>
 
-        <div class="corpos-item4">
+        <div class="corpos-item4m">
           <img src="img/gorda-m.png" alt="" width="180px">
-          <span>18.5 ou menos</span>
+          <span>Entre 30,0 e 34,9</span>
           <h2>Obesidade grau I</h2>
-          <p>Procure um médico. Algumas pessoas têm um baixo peso por caracteristica do seu organismo e tudo bem. Outras
-            podem estar enfrentando problemas, como a desnutrição. É preciso saber qual é o caso</p>
+          <p>Sinal de alerta! Chegou na hora de se cuidar, mesmo que seus exames sejam normais. Vamos dar início a
+            mudanças hoje!
+            Cuide de sua alimentação. Você precisa iniciar um acompanhamento com nutricionista e/ou endocrinologista.
+          </p>
         </div>
 
-        <div class="corpos-item5">
+        <div class="corpos-item5m">
           <img src="img/gorda-m.png" alt="" width="180px">
-          <span>18.5 ou menos</span>
+          <span>Entre 35,0 e 39,9</span>
           <h2>Obesidade grau II</h2>
-          <p>Procure um médico. Algumas pessoas têm um baixo peso por caracteristica do seu organismo e tudo bem. Outras
-            podem estar enfrentando problemas, como a desnutrição. É preciso saber qual é o caso</p>
+          <p>Mesmo que seus exames aparentem estar normais, é hora de se cuidar, iniciando mudanças no estilo de vida
+            com o
+            acompanhamento próximo de profissionais de saúde.<span class="opacity-0">tratamento deve ser ainda mais
+              urgente</span> <span class="opacity-0"></span></p>
         </div>
 
-        <div class="corpos-item6">
+        <div class="corpos-item6m">
           <img src="img/gorda-m.png" alt="" width="180px">
-          <span>18.5 ou menos</span>
-          <h2>Obesidade grau II</h2>
-          <p>Procure um médico. Algumas pessoas têm um baixo peso por caracteristica do seu organismo e tudo bem. Outras
-            podem estar enfrentando problemas, como a desnutrição. É preciso saber qual é o caso</p>
+          <span>Acima de 40,0</span>
+          <h2>Obesidade grau III</h2>
+          <p>Aqui o sinal é vermelho, com forte probabilidade de já existirem doenças muito graves associadas. O
+            tratamento deve ser ainda mais urgente.
+            <span class="opacity-0">tratamento deve ser ainda mais urgente <span class="opacity-0">tratamento deve ser
+                ainda mais urgente</span> <span class="opacity-0">tratamento deve ser ainda mais urgente</span></span>
+          </p>
         </div>
       </div>
 
@@ -237,26 +265,30 @@
         </div>
       </div>
 
-        <div class="bio">
+      <div>
           <h3>GRUPO</h3>
-          <div class="bio-info">
-            <p><a href="./sobrenos.html">Sobre-nós</a></p>
-            <p><a href="./">Contate-nos</a></p>
-          </div>
-        </div>
-
-        <div class="contato">
-          <h3>CONTATO RÁPIDO</h3>
-          <div class="contato-info">
-            <p>guilhermim@gmail.com</p>
-            <p>64 98459-1545</p>
-          </div>
-        </div>
+       <div class="bio-info">
+        <p><a href="./grupo.html">Sobre-nós</a></p>
+        <p><a href="./">Contate-nos</a></p>
       </div>
+      </div>
+    
+   
+
+    <div class="contato">
+      <h3>CONTATO RÁPIDO</h3>
+      <div class="contato-info">
+        <p>guilhermim@gmail.com</p>
+        <p>64 98459-1545</p>
+      </div>
+    </div>
+    </div>
   </footer>
 
   <script src="./css/plugins/simple-anime.js"></script>
   <script src="script.js"></script>
+  <script src="script1.js"></script>
+
 </body>
 
 </html>

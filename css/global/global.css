@@ -103,6 +103,58 @@ body{
 }
 
 
+.corpos-item1m.ativo{
+ border: 4px solid black;
+ border-radius: 5px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-left: 5px;
+ padding-right: 5px;
+ 
+}
+.corpos-item2m.ativo{
+ border: 4px solid black;
+  border-radius: 5px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-left: 5px;
+ padding-right: 5px;
+}
+.corpos-item3m.ativo{
+  border: 4px solid black;
+   border-radius: 5px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-left: 5px;
+ padding-right: 5px;
+}
+.corpos-item4m.ativo{
+  border: 4px solid black;
+   border-radius: 5px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-left: 5px;
+ padding-right: 5px;
+}
+
+.corpos-item5m.ativo{
+ border: 4px solid black;
+  border-radius: 5px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-left: 5px;
+ padding-right: 5px;
+}
+
+.corpos-item6m.ativo{
+ border: 4px solid black;
+  border-radius: 5px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-left: 5px;
+ padding-right: 5px;
+}
+
 
 
 

@@ -1,0 +1,63 @@
+.menu-sobreNos{
+  margin: 0px;
+  padding: 0;
+}
+
+.menu-sobreNos{
+  text-align: center;
+  background-color: #f1f1f1;
+  
+}
+
+.negrito{
+  font-weight: 700;
+}
+
+
+.header1 h1{
+background-color: #169b3b;
+color: #404040;
+padding: 15px;
+}
+.header1 p{
+  padding: 15px;
+}
+.header1 img{
+  width: 200px;
+  border-radius: 10%;
+  filter:grayscale(1);
+  transition: 0.5s;
+}
+
+.header1 img:hover{
+  cursor: pointer;
+  filter: grayscale(0);
+  border-radius: 50%;
+}
+.sobrenos p{
+  color: #404040;
+  padding: 20px;
+}
+
+.about p{
+  padding: 10px;
+  color: #404040;
+}
+.about h2{
+color: #404040;
+padding: 10px;
+font-size: 1.25rem;
+}
+.about{
+  background-color: #fff;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+
+}
+
+.detalhes p{
+  padding: 10px;
+}
