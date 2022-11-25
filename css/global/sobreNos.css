@@ -50,7 +50,8 @@ font-size: 1.25rem;
 }
 .about{
   background-color: #fff;
-  
+  margin-left: 200px;
+  margin-right: 200px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -59,10 +60,11 @@ font-size: 1.25rem;
 .detalhes p{
   padding: 10px;
 }
+@media(max-width:840px){
+  .about{
 
-@media(max-width:800px){
-  .about {
-  
-
+    margin-left: 20px;
+    margin-right: 20px;
+    
   }
 }

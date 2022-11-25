@@ -6,6 +6,7 @@ padding-left: 30px;
 padding-top: 60px;
 padding-bottom: 30px;
 background: #488A5F;
+
 }
 .titulo-noticias h3{
   font-size: 32px;
@@ -86,6 +87,9 @@ padding-top: 10px;
 body{
   position: relative;
 }
+.Adolphe.ativoover{
+  margin-top: 40px;
+  padding-left: 400px;}
 
 @media(max-width:1085px){
  .Adolphe.ativoover{
@@ -104,7 +108,7 @@ body{
 @media(max-width:930px){
  .Adolphe.ativoover{
   padding-left: 300px;
-  margin-top: 260px;
+  
  
  }
    .propagandas-item {
@@ -115,7 +119,7 @@ body{
 @media(max-width:830px){
  .Adolphe.ativoover{
   padding-left: 200px;
-  margin-top: 190px;
+
  
  }
  .texto-noticias{
@@ -125,7 +129,7 @@ body{
 @media(max-width:700px){
  .Adolphe.ativoover{
   padding-left: 30px;
-  margin-top: 200px;
+  
  
  }
  .texto-noticias{
@@ -214,5 +218,3 @@ body{
     padding-top: 20px;
   }
   }
-
-
