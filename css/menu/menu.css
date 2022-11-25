@@ -59,6 +59,7 @@ main{
 .menu-medida input {
   padding: 5px 15px;
   border-radius: 10px;
+
 }
 
 .menu-medida label {
@@ -139,13 +140,27 @@ main{
   }
   .menu-medida {
     display: grid;
+    justify-content: center;
   }
-  .botao input {
-    margin-left: -50px;
+  .botao  {
+    padding-left: 150px;
+  
+    
+    
   }
   .menu-item-homen button {
     margin-left: 10px;
+   
+   
   }
+  .sexo{
+    display: grid;
+    
+    justify-content: center;
+  }
+  
+
+  
   .menu-principal{
  padding-left: 90px;
 }
