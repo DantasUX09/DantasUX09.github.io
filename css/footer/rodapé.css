@@ -73,7 +73,9 @@ margin-top: 5px;
     grid-template-columns: 1fr 1fr;
     
   }
-
+.rodape-index1{
+  background: redS;
+}
   
 
   .bio{
